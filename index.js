@@ -5,7 +5,7 @@ const app = express()
 const port = 5000
 
 app.use(cors({
-    origin: 'http://localhost:3000',  // Permite solicitudes desde localhost:3000
+    origin: 'https://pokemon-ecommerce-ydep.vercel.app/',  // Permite solicitudes desde localhost:3000
     methods: ['GET', 'POST'],         // Permite métodos GET y POST
     allowedHeaders: ['Content-Type'], // Permite cabeceras Content-Type
   }));
