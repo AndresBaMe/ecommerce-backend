@@ -1,0 +1,36 @@
+# Node modules
+/node_modules/
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+logs/
+
+# Directorios de compilación (si usas TypeScript o Babel)
+dist/
+build/
+
+# Dependencias de instalación global (si usas alguna herramienta de instalación global)
+*.tgz
+
+# Configuración de IDE
+.vscode/
+.idea/
+
+# Archivos de entorno
+.env
+
+# Archivos de sistema de Mac
+.DS_Store
+
+# Archivos de sistema de Windows
+Thumbs.db
+
+# Directorio de cobertura de test (si usas algún framework de testing como Jest o Mocha)
+coverage/
+
+# Otros archivos sensibles o temporales
+*.log
+*.bak
+*.swp
